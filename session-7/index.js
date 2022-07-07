@@ -1,8 +1,10 @@
 // ****************************************************TASK 1****************************************************
+const animals = ['elephant', 'dog', 'wolf', 'bird', 'cat']
+console.log(animals.pop())
 
-
-
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+// Array.prototype.pop()
+// The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
 
 
 
