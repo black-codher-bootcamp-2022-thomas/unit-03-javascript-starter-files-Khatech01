@@ -26,11 +26,11 @@ export default function createListOfFruits(fruits) {
   // console.log("New fruit result "+ newFruit)
 
  
-  // newFruit.map((newFruit) => {
-  //   const listItem = document.createElement("li");
-  //   listItem.textContent = newFruit;
-  //   list.appendChild(listItem);
-  // });
+  newFruit.map((newFruit) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = newFruit;
+    list.appendChild(listItem);
+  });
 
 
   title.appendChild(titleText);

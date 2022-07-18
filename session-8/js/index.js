@@ -10,7 +10,16 @@ import createListOfFruits from "./giveMeFruits.js";
     // button.onclick = displayPopulation;
     // document.body.appendChild(button);
 
-// Mini task + Task 2
- createListOfFruits(fruits.filter (fruits => fruits.length < 6))
+
+    const removeHandler = document.querySelector("#remove-handler");
+   
+    document
+    removeHandler.querySelector("#remove-handler")
+    .addEventListener("mousemove", randomNumber);
+  
+  function randomNumber() {
+    document.querySelector("#random-number").innerHTML = Math.random();
+  }
+  
 
 
